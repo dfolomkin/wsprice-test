@@ -1,0 +1,13 @@
+.outer {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.inner {
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  :global(.table) {
+    margin-bottom: 0;
+  }
+}
